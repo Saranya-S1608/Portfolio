@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detel a{
+    background: #212121;
+    padding:10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius:5px;
+}
+.detel h1{
+    font-size: 50x;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(98, 8, 98);
+}
+.detel p{
+    color:#555;
+    line-height: 22px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom : 0;
+    right:100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 50%;
+    box-shadow: 0 0 25px blueviolet;
+    width:450px;
+}
+.images:hover .girl{
+       left:45%;
+}
+.about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8%;
+    gap:10em;
+    background: black;
+}
+.about-img img{
+    position: relative;
+    width: 450px;
+    box-shadow: 0 0 25px blueviolet;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.about-content h3{
+    font-size: 62px;
+    color:white;
+}
+.about-content p{
+    color:white;
+    font-size: 27px;
+    margin:2em 0 3em;
+}
+.contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% ;
+    background: black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:10em;
+        background: white;
+}
+.contact-list .contact-link{
+    width:50px;
+    height:50px;
+    gap: 10px;
+    padding:0% 0%;
+}
+.contact-list .contact-lin{
+    width:40px;
+    height:46px;
+    gap: 10px;
+    padding:00.5% 1%;
+    margin: 0 10px;
+}
+.contact-list .contact-li{
+    width:40px;
+    height:42px;
+    gap: 10px;
+    padding: 1% 0%;
+    margin: 0 10px;
+}
+.contact-list .contact-l{
+    width:33px;
+    height:36.5px;
+    gap: 10px;
+    margin: 0 10px;
+    padding: 2% 1%;
+}
+.contact-text h2{
+    text-align: left;
+    color: black;
+    font-size: 42px;
+}
+.contact-text  h3{
+    font-size: 40px;
+    color:black;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.contact-mail{
+        width:35px;
+        height:35px;
+        margin-right: 10px;
+        padding:0.5% 2%;
+}
+.mail{
+    font-size: larger;
+    color:rgb(98, 8, 98);
+    margin: 0;
+}
+.text2{
+    display: flex;
+    align-items: center;
+}
+.contact-mob{
+        width:35px;
+        height:35px;
+        margin-right: 10px;
+        padding:0.5% 2%;
+}
+.mobile{
+    font-size: larger;
+    color:rgb(98, 8, 98);
+    margin: 0;
+}
+.text3{
+    display: flex;
+    align-items: center;
+}
+.contact-leet{
+        width:55px;
+        height:55px;
+        margin-right: 10px;
+        padding:0.% 2%;
+}
+.code{
+    font-size: larger;
+    color:rgb(98, 8, 98);
+    margin: 0;
+}
+.projects{
+    background: black;
+}
+.projects h2{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.projects h3{
+    font-size: 35px;
+    color: white;
+    margin-left:50px;
+}
+.rail{
+    width:400px;
+    height:300px;
+    border-radius: 50%;
+    box-shadow: 0 0 21px rgb(93, 18, 87);
+    margin-right: 40px;
+    margin-left:30px;
+}
+.led{
+    width:400px;
+    height:300px;
+    border-radius: 50%;
+    box-shadow: 0 0 21px rgb(93, 18, 87);
+    margin-right: 40px;
+    margin-left:30px;
+}
+.des-1{
+        font-size: 30px;
+        color:white;
+        margin: 0;
+}
+.des-2{
+    font-size: 30px;
+    color:white;
+    margin: 0;
+}
+.pro-1{
+    display: flex;
+    align-items: center;
+}
+.pro-2{
+    display: flex;
+    align-items: center;
+}
+.skills h2{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.skills h3{
+    font-size: 35px;
+    color:white;
+    margin-left: 50px;
+}
+.skills li{
+    font-size: 35px;
+    color:white;
+   margin-left: 300px;
+}
+.skills{
+    justify-content: center;
+    align-items: center;
+    gap:10em;
+    background: black;
+}
+.contact .copy{
+    padding:6% ;
+}
