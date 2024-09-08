@@ -271,29 +271,3 @@ span{
 .contact .copy{
     padding:6% ;
 }
-.education{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8% 8%;
-    gap:10em;
-    background: black;
-}
-.education-img img{
-    position: relative;
-    width: 550px;
-    height: 400px;
-    box-shadow: 0 0 100px rgba(205, 7, 245, 0.482);
-    border-radius: 50%;
-}
-.education h2{
-    text-align: center;
-    align-items: center;
-    color: white;
-    font-size: 42px;
-}
-.education-con p{
-    color:white;
-    font-size: 27px;
-    margin:2em 0 3em;
-}
