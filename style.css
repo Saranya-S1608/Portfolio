@@ -72,7 +72,7 @@ span{
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
     border-radius: 50%;
-    box-shadow: 0 0 25px blueviolet;
+    box-shadow: 0 0 50px rgb(98, 8, 98);
     width:450px;
 }
 .images:hover .girl{
@@ -88,8 +88,9 @@ span{
 }
 .about-img img{
     position: relative;
-    width: 450px;
-    box-shadow: 0 0 25px blueviolet;
+    width: 550px;
+    height: 400px;
+    box-shadow: 0 0 100px rgba(205, 7, 245, 0.482);
     border-radius: 50%;
 }
 .about-content h2{
@@ -116,7 +117,7 @@ span{
         justify-content: center;
         align-items: center;
         gap:10em;
-        background: white;
+        background: rgb(231, 199, 199);
 }
 .contact-list .contact-link{
     width:50px;
@@ -216,7 +217,7 @@ span{
     width:400px;
     height:300px;
     border-radius: 50%;
-    box-shadow: 0 0 21px rgb(93, 18, 87);
+    box-shadow: 0 0 50px rgb(98, 8, 98);
     margin-right: 40px;
     margin-left:30px;
 }
@@ -224,7 +225,7 @@ span{
     width:400px;
     height:300px;
     border-radius: 50%;
-    box-shadow: 0 0 21px rgb(93, 18, 87);
+    box-shadow: 0 0 50px rgb(98, 8, 98);
     margin-right: 40px;
     margin-left:30px;
 }
@@ -269,4 +270,30 @@ span{
 }
 .contact .copy{
     padding:6% ;
+}
+.education{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8%;
+    gap:10em;
+    background: black;
+}
+.education-img img{
+    position: relative;
+    width: 550px;
+    height: 400px;
+    box-shadow: 0 0 100px rgba(205, 7, 245, 0.482);
+    border-radius: 50%;
+}
+.education h2{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 42px;
+}
+.education-con p{
+    color:white;
+    font-size: 27px;
+    margin:2em 0 3em;
 }
